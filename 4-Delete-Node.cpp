@@ -18,7 +18,7 @@ It is guaranteed that the node to be deleted is not a tail node in the list.
 void deleteNode(ListNode* node) 
 {
 
-ListNode* prev = node->next;;
+ListNode* prev = node->next;
 node->val  = prev->val;
 node->next = prev->next;
   
